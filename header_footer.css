@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: ofont;
+    font-weight: normal;
+    font-style: normal;
+    src: url("./fonts/ofont.ru_Wolgadeutsche.ttf");
+}
+.container-fluid {
+    width: 100%;
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+.container img {
+    width: 400px;
+}
+body {
+    background-color: black;
+    font-family: "ofont", Arial, Helvetica, sans-serif;
+}
+.container p {
+    color: white;
+    font-size: 50px;
+}
+.d-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header > .container {
+    padding: 40px 20px;
+}
+
+.menu 
